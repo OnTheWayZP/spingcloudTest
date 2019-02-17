@@ -11,5 +11,13 @@
 
     <artifactId>product-share</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.zapoul</groupId>
+            <artifactId>share</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

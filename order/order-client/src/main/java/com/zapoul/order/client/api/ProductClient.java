@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * name 访问哪个应用的接口
  */
-@FeignClient(name = "product")
+@FeignClient(name = "productClient")
 public interface ProductClient {
 
     @GetMapping("/getMsg")

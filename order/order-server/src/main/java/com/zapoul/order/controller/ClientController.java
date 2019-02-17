@@ -2,8 +2,8 @@ package com.zapoul.order.controller;
 
 import com.zapoul.order.ResultVO;
 import com.zapoul.order.client.api.ProductClient;
+import com.zapoul.order.client.dto.CartDto;
 import com.zapoul.order.domain.ProductInfo;
-import com.zapoul.order.client.api.CartDto;
 import com.zapoul.order.utils.ResultUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
